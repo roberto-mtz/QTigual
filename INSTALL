@@ -1,0 +1,15 @@
+Plataforma y prerrequisitos
+---------------------------
+
+Para la elaboración de este proyecto usé XCode v4, Python 2.7.3 y PHP 5.3
+con el sistema operativo Mac OS X Mountain Lion. 
+
+Es necesario contar con Tk inter dependencias que no estan incluidas en la librería estandar de Python.
+
+[Xcode 4](https://developer.apple.com/xcode/)
+
+[PHP](http://php.net)
+
+[Python](http://www.python.org)
+
+[Tkinter](http://wiki.python.org/moin/TkInter)
