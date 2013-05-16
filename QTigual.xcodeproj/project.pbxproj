@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6231F9B017433FFE007B928D /* b32d3015163b6635bf0f29b81d0a08e4.png in Resources */ = {isa = PBXBuildFile; fileRef = 6231F9AF17433FFE007B928D /* b32d3015163b6635bf0f29b81d0a08e4.png */; };
+		6231F9B21743404F007B928D /* 4719cb3f1a184d84d12af3290fad1466.png in Resources */ = {isa = PBXBuildFile; fileRef = 6231F9B11743404F007B928D /* 4719cb3f1a184d84d12af3290fad1466.png */; };
+		625253D41742F5F70050366C /* stopwatch-md.png in Resources */ = {isa = PBXBuildFile; fileRef = 625253D31742F5F70050366C /* stopwatch-md.png */; };
 		62E58983173EEFA5008AB12C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E58982173EEFA5008AB12C /* UIKit.framework */; };
 		62E58985173EEFA5008AB12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E58984173EEFA5008AB12C /* Foundation.framework */; };
 		62E58987173EEFA5008AB12C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E58986173EEFA5008AB12C /* CoreGraphics.framework */; };
@@ -21,6 +24,12 @@
 		62E589A3173EEFA5008AB12C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E58984173EEFA5008AB12C /* Foundation.framework */; };
 		62E589AB173EEFA5008AB12C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 62E589A9173EEFA5008AB12C /* InfoPlist.strings */; };
 		62E589AE173EEFA5008AB12C /* QTigualTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E589AD173EEFA5008AB12C /* QTigualTests.m */; };
+		62E589BA173EF056008AB12C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E589B8173EF056008AB12C /* MainViewController.m */; };
+		62E589BB173EF056008AB12C /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E589B9173EF056008AB12C /* MainViewController.xib */; };
+		62E589C0173EF079008AB12C /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E589BE173EF079008AB12C /* ImageViewController.m */; };
+		62E589C1173EF079008AB12C /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E589BF173EF079008AB12C /* ImageViewController.xib */; };
+		62E589C6173F2578008AB12C /* CanvasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E589C4173F2578008AB12C /* CanvasViewController.m */; };
+		62E589C7173F2578008AB12C /* CanvasViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62E589C5173F2578008AB12C /* CanvasViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6231F9AF17433FFE007B928D /* b32d3015163b6635bf0f29b81d0a08e4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b32d3015163b6635bf0f29b81d0a08e4.png; sourceTree = "<group>"; };
+		6231F9B11743404F007B928D /* 4719cb3f1a184d84d12af3290fad1466.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4719cb3f1a184d84d12af3290fad1466.png; sourceTree = "<group>"; };
+		625253D31742F5F70050366C /* stopwatch-md.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stopwatch-md.png"; sourceTree = "<group>"; };
 		62E5897F173EEFA5008AB12C /* QTigual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QTigual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62E58982173EEFA5008AB12C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		62E58984173EEFA5008AB12C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -53,6 +65,15 @@
 		62E589AA173EEFA5008AB12C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		62E589AC173EEFA5008AB12C /* QTigualTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QTigualTests.h; sourceTree = "<group>"; };
 		62E589AD173EEFA5008AB12C /* QTigualTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QTigualTests.m; sourceTree = "<group>"; };
+		62E589B7173EF056008AB12C /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		62E589B8173EF056008AB12C /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		62E589B9173EF056008AB12C /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		62E589BD173EF079008AB12C /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		62E589BE173EF079008AB12C /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		62E589BF173EF079008AB12C /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		62E589C3173F2578008AB12C /* CanvasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasViewController.h; sourceTree = "<group>"; };
+		62E589C4173F2578008AB12C /* CanvasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasViewController.m; sourceTree = "<group>"; };
+		62E589C5173F2578008AB12C /* CanvasViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +103,8 @@
 		62E58976173EEFA5008AB12C = {
 			isa = PBXGroup;
 			children = (
+				6231F9B11743404F007B928D /* 4719cb3f1a184d84d12af3290fad1466.png */,
+				6231F9AF17433FFE007B928D /* b32d3015163b6635bf0f29b81d0a08e4.png */,
 				62E58988173EEFA5008AB12C /* QTigual */,
 				62E589A6173EEFA5008AB12C /* QTigualTests */,
 				62E58981173EEFA5008AB12C /* Frameworks */,
@@ -112,9 +135,13 @@
 		62E58988173EEFA5008AB12C /* QTigual */ = {
 			isa = PBXGroup;
 			children = (
+				625253D31742F5F70050366C /* stopwatch-md.png */,
 				62E58991173EEFA5008AB12C /* AppDelegate.h */,
 				62E58992173EEFA5008AB12C /* AppDelegate.m */,
 				62E58989173EEFA5008AB12C /* Supporting Files */,
+				62E589BC173EF060008AB12C /* Main */,
+				62E589C2173EF080008AB12C /* Image */,
+				62E589C8173F257D008AB12C /* Canvas */,
 			);
 			path = QTigual;
 			sourceTree = "<group>";
@@ -150,6 +177,36 @@
 				62E589A9173EEFA5008AB12C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		62E589BC173EF060008AB12C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				62E589B7173EF056008AB12C /* MainViewController.h */,
+				62E589B8173EF056008AB12C /* MainViewController.m */,
+				62E589B9173EF056008AB12C /* MainViewController.xib */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		62E589C2173EF080008AB12C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				62E589BD173EF079008AB12C /* ImageViewController.h */,
+				62E589BE173EF079008AB12C /* ImageViewController.m */,
+				62E589BF173EF079008AB12C /* ImageViewController.xib */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		62E589C8173F257D008AB12C /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				62E589C3173F2578008AB12C /* CanvasViewController.h */,
+				62E589C4173F2578008AB12C /* CanvasViewController.m */,
+				62E589C5173F2578008AB12C /* CanvasViewController.xib */,
+			);
+			name = Canvas;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -227,6 +284,12 @@
 				62E58995173EEFA5008AB12C /* Default.png in Resources */,
 				62E58997173EEFA5008AB12C /* Default@2x.png in Resources */,
 				62E58999173EEFA5008AB12C /* Default-568h@2x.png in Resources */,
+				62E589BB173EF056008AB12C /* MainViewController.xib in Resources */,
+				62E589C1173EF079008AB12C /* ImageViewController.xib in Resources */,
+				62E589C7173F2578008AB12C /* CanvasViewController.xib in Resources */,
+				625253D41742F5F70050366C /* stopwatch-md.png in Resources */,
+				6231F9B017433FFE007B928D /* b32d3015163b6635bf0f29b81d0a08e4.png in Resources */,
+				6231F9B21743404F007B928D /* 4719cb3f1a184d84d12af3290fad1466.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +326,9 @@
 			files = (
 				62E5898F173EEFA5008AB12C /* main.m in Sources */,
 				62E58993173EEFA5008AB12C /* AppDelegate.m in Sources */,
+				62E589BA173EF056008AB12C /* MainViewController.m in Sources */,
+				62E589C0173EF079008AB12C /* ImageViewController.m in Sources */,
+				62E589C6173F2578008AB12C /* CanvasViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +501,7 @@
 				62E589B3173EEFA5008AB12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		62E589B4173EEFA5008AB12C /* Build configuration list for PBXNativeTarget "QTigualTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +510,7 @@
 				62E589B6173EEFA5008AB12C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
